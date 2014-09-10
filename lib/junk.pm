@@ -1,5 +1,5 @@
 package junk;
-our $VERSION   = '0.003';
+our $VERSION   = '0.004';
 our $AUTHORITY = 'cpan:TOBYINK';
 use strict; use Carp; use MIME::Base64;
 sub import{my$class=shift or return$=;if(!@_){strict->unimport,return
