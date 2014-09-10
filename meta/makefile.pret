@@ -1,0 +1,8 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/junk/project>
+	deps:runtime-requirement         [ deps:on "strict"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Carp"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "MIME::Base64"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
+
